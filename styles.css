@@ -35,6 +35,84 @@
 }
 
 .nav__link:hover{
-    color: rgb(240, 218, 24);
+    color:  black;
     transition: 0.3s;
+}
+
+.hero{
+    background-image: url(photo/h2section.jpeg);
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.herodiv{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.hsec1{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+
+.hsec2{
+    color: white;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bkbtn{
+    margin-top: 30px;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: firebrick;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bkbtn:hover{
+    background-color: rgb(240, 218, 24);
+    color: black;
+    transition: 0.3s;
+}
+
+.events{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.eventimg{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+
+.eventlist{
+    background-color: firebrick;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
