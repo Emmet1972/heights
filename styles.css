@@ -156,9 +156,60 @@
 .newsletter{
     display: grid;
     justify-content: center;
-    background-color: rgb(248, 248, 248);
+    background-color: white;
     padding: 40px;
     text-align: center;
     color: rgb(0, 0, 0);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.newsform{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: brown;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.newsemail{
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    transition: border-color 0.3s ease;
+}
+
+.newscomment{
+    padding: 10px;
+    width: 300px;
+    height: 100px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    transition: border-color 0.3s ease;
+}
+
+.newssubmit{
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: firebrick;
+    background-color: rgb(255, 255, 248);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.newssubmit:hover{
+    background-color: rgb(240, 218, 24);
+    transition: 0.3s;
 }
