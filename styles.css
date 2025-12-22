@@ -238,6 +238,22 @@
 }
 
 .staffimg{
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
+}
+
+.book{
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: white;
+    color: firebrick;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
